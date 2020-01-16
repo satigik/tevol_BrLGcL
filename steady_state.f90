@@ -4,7 +4,7 @@ module common_params
   implicit none
   real(wp) :: Qxi=1.e-4_wp, Qxf=0.6_wp
   real(wp) :: Qzi=1.e-4_wp, Qzf=0.6_wp
-  real(wp) :: Qi= 1.e-4_wp, Qf= 100.0_wp ! For VQQ
+  real(wp) :: Qi= 1.e-4_wp, Qf= 6.0_wp ! For VQQ
   real(wp) :: Ulim= 16.0_wp
   real(wp) :: RTeTi= 1._wp, G= 5.e-3_wp
   real(wp) :: Ve2C2= 4.e-3_wp
@@ -14,7 +14,7 @@ module common_params
   character(LEN=3) :: BremGcollL= "Yes"
   integer :: nqx=64, nqz=64
   integer :: nux=64, nuz=128
-  integer :: nqcd=10000 !!1024
+  integer :: nqcd=1024
   integer :: nrz=1
 end module common_params
 
