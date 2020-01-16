@@ -7,7 +7,7 @@ contains
     real(wp) :: a,b,s
     real(wp) :: EPS= 1.E-8_wp
     integer :: j
-    integer :: jmax= 23
+    integer :: jmax= 25
     real(wp) :: os,ost,st
     !      EXTERNAL func
     interface 
