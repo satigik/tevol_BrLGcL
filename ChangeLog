@@ -1,0 +1,88 @@
+2020-01-15  Sabrina Tigik  <sabrina.tigik@ufrgs.br>
+* sst: Summary: Integration results and other stuff
+	
+	
+
+* VintL1D.wt: Summary: Integration results and other stuff
+	
+	
+
+* VintL.wt: Summary: Integration results and other stuff
+	
+	
+
+* IL1D.wt: Summary: Integration results and other stuff
+	
+	
+
+* IL01D.wt: Summary: Integration results and other stuff
+	
+	
+
+* IL0.wt: Summary: Integration results and other stuff
+	
+	
+
+* IL.wt: Summary: Integration results and other stuff
+	
+	
+
+* GcollLp1D.wt: Summary: Integration results and other stuff
+	
+	
+
+* GcollL1D.wt: Summary: Integration results and other stuff
+	
+	
+
+* GcollL.wt: Summary: Integration results and other stuff
+	
+	
+
+* Fe1D.wt: Summary: Integration results and other stuff
+	
+	
+
+* Fe0.wt: Summary: Integration results and other stuff
+	
+	
+
+* Fe.wt: Summary: Integration results and other stuff
+	
+	
+
+* BremL1D.wt: Summary: Integration results and other stuff
+	
+	
+
+* BremL.wt: Summary: Integration results and other stuff
+	
+	
+
+* steady_state.f90: Summary: I've changed the wave vector size
+	from Qf=100 to Qf=6 and also the number of points of this vector
+	from nqcd=10000 to nqcd=1024.
+	
+	Best set up for avoiding aliasing.
+	
+* DQsimp_m.f90: Summary: I've changed the convergence parameter
+	from j=23 to j=25
+	
+	For avoiding aliasing
+	
+* run.sh: Summary: Changed mod to executable
+	
+	
+
+* rm.sh: Summary: Changed mod to executable
+	
+	
+
+* kappa_name-file.sh: Summary: Changed mod to executable
+	
+	
+
+* column.sh: Summary: Changed mod to executable
+	
+	
+
